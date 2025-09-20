@@ -17,11 +17,11 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-secondary">
+    <section id="projects" className="py-20 bg-primary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <p className="text-sm font-semibold text-primary mb-4 tracking-wider uppercase">PROJECTS</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">OUR PROJECTS</h2>
+          <p className="text-sm font-semibold text-white mb-4 tracking-wider uppercase">PROJECTS</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">OUR PROJECTS</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
